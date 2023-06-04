@@ -1,12 +1,11 @@
-import Alert from "./components/Alert";
+import Button from "./components/Button";
 
 function App() {
-
   return (
     <div>
-      <Alert>
-        This is an alert!!
-      </Alert>
+      <Button color="primary" onClick={() => console.log("Logged in")}>
+        Login
+      </Button>
     </div>
   );
 }
