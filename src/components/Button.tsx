@@ -7,8 +7,6 @@ interface props {
 }
 
 const Button = ({ children, onClick, color }: props) => {
-  console.log(color);
-
   return (
     <div>
       <button type="button" className={"btn btn-" + color} onClick={onClick}>
