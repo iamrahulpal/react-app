@@ -1,12 +1,12 @@
-import ListGroup from "./components/ListGroup";
+import Alert from "./components/Alert";
 
 function App() {
-  const cityData = ["Mumbai", "Delhi", "Jaipur", "Chennai", "Jammu"];
-  const schoolData = [ "Arts", "Science", "Commerece", "law", "Medical" ]
+
   return (
     <div>
-      <ListGroup data={cityData} heading="Cities"/>
-      <ListGroup data={schoolData} heading="School"/>
+      <Alert>
+        This is an alert!!
+      </Alert>
     </div>
   );
 }
