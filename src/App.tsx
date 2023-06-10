@@ -1,16 +1,13 @@
-import { useState } from "react";
-import Alert from "./components/Alert";
-import Button from "./components/Button";
-import Like from "./components/Like";
+import Form from "./components/Form";
+
+export const categories = [ "Groceries", "Utilities", "Entertainment" ]
 
 function App() {
-  const [visible, setVisibility] = useState(false);
-
   return (
     <div>
-      <Like />
+      <Form />
     </div>
-  );
+  )
 }
 
 export default App;
