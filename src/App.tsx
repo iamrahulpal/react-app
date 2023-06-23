@@ -1,11 +1,11 @@
-import Form from "./components/Form";
+import ProductList from "./components/ProductList";
 
-export const categories = [ "Groceries", "Utilities", "Entertainment" ]
+
 
 function App() {
   return (
     <div>
-      <Form />
+      <ProductList />
     </div>
   )
 }
